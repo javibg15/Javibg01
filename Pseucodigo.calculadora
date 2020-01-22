@@ -1,0 +1,23 @@
+Algoritmo sin_titulo
+	Escribir "dime un número"
+	Leer a
+	Escribir "dime otro"
+	Leer b
+	Escribir "Qué operación quieres"
+	Repetir
+		Escribir "1)sumar" 
+		Escribir "2)restar"
+		Leer op
+		Segun op Hacer
+			1:
+				Escribir "la suma es",a+b
+			2:
+				Escribir "la resta es",a-b
+			3:
+				Escribir "adiós"
+			De Otro Modo:
+				Escribir "introduzca un número"
+		FinSegun
+	Hasta Que op<=3
+FinAlgoritmo
+
