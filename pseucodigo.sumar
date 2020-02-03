@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "dame un número"
+	Leer n1
+	Escribir "dame otro número"
+	Leer n2
+	sumar(n1,n2)
+FinAlgoritmo
+
+
+Funcion sumar(n1,n2)
+ Escribir n2+n2
+FinFuncion
+	
