@@ -1,0 +1,26 @@
+Algoritmo dados
+	
+	Escribir "¿cuntas caras tiene el dado?"
+	
+	leer numCaras
+	
+	dimension dado(numCaras)
+	
+	simularTiradas(dado, numCaras, 6000)
+	imprimirVector(dado,numCaras)
+	
+FinAlgoritmo
+
+
+Función simularTiradas(v, numCaras, numTiradas)
+	Para i<-1 Hasta numTiradas Hacer
+		t=Aleatorio(1,numCaras)
+		v(t)=v(t)+1
+	FinPara
+FinFuncion
+
+Funcion imprimirVector(v, numCaras)
+	Para i<-1 Hasta numCaras Hacer
+		Escribir i " : " v(i)
+	FinPara
+FinFuncion

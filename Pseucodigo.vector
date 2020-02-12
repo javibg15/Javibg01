@@ -1,0 +1,23 @@
+Algoritmo vector
+
+	Dimensión vocales(5)
+	
+	rellenarAleatoriamente(vocales, 5)
+	imprimirVector(vocales,5)
+	
+FinAlgoritmo
+
+Función imprimirVector(v,tam)
+para i=1 hasta tam Hacer 
+     Escribir v(i)
+FinPara
+FinFunción
+
+Función rellenarAleatoriamente(v, tam)
+
+para i=1 Hasta tam Hacer
+	v(i)=Aleatorio(1,10)
+FinPara
+
+FinFunción
+	
