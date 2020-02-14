@@ -1,0 +1,56 @@
+Algoritmo mediaVectores
+	
+	Escribir "¿Cuantos valores quieres en el vector?"
+	Leer numValores
+	
+	
+	
+	Dimension notas(numValores)
+	
+	
+	
+	
+	rellenarAleatoriamente(notas, numValores)
+	imprimirVector(notas,numValores)
+	media=mediaVector(notas, numValores)
+	
+	Escribir "La media es " media
+	
+FinAlgoritmo
+
+	
+
+Función imprimirVector(v,tam)
+para i=1 hasta tam Hacer 
+	Escribir v(i)
+FinPara
+FinFunción
+
+Función rellenarAleatoriamente(v, tam)
+
+para i=1 Hasta tam Hacer
+	v(i)=Aleatorio(1,10)
+FinPara
+
+FinFunción
+
+	
+	
+	
+	
+	
+	Funcion rsdo=mediaVector(v,tam)
+		rsdo=0
+FinFuncion
+
+
+
+
+
+
+Funcion simularTiradas(v, numCaras, numTiradas)
+	
+	para i=1 hasta numTiradas
+		
+	FinPara
+FinFuncion
