@@ -1,0 +1,30 @@
+Algoritmo tabla
+	Dimension m(10,10)
+	
+	
+	multiplicar(m)
+	imprimirMatriz(m,a,b)
+FinAlgoritmo
+
+Funcion multiplicar(vector)
+	para i<-1 hasta 10 hacer 
+		para j<-1 hasta 10 Hacer
+			vector(i,j)=i*j
+		FinPara
+	FinPara
+FinFuncion
+
+
+
+
+
+
+
+funcion imprimirMatriz(vector,a, b)
+	para i=1 hasta 10
+		para j=1 hasta 10
+			Escribir vector(i,j) " " Sin saltar
+		FinPara
+		Escribir " "
+	FinPara
+FinFuncion
