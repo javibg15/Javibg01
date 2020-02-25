@@ -1,0 +1,104 @@
+Algoritmo imprimiendoVectores
+	
+	Escribir "¿cuántas columnas tiene el vector?"
+	leer numColumnas
+	
+	
+	
+	Dimension valores(numColumnas)
+	
+	rellenarAleatoriamente(valores,numColumnas)
+	imprimirVector(valores,numColumnas)
+	
+	desordenarVector(vector,numColumnas)
+	imprimirVector(valores,numColumnas)
+	
+FinAlgoritmo
+
+
+
+
+
+
+funcion desordenarVector(v,numColumnas)
+	
+FinFuncion
+
+
+
+
+
+
+funcion rellenarMatrizAleatoriamente(m, numFilas, numColumnas)
+	
+FinFuncion
+
+
+
+
+
+
+funcion imprimirMatriz(m,numFilas, numColumnas)
+	
+	
+	
+	para i=1 hasta numFilas
+		
+		
+		
+		para j=1 hasta numColumnas
+			escribir m(i,j) " " Sin Saltar
+		FinPara
+		
+		
+		escribir " "
+	FinPara
+	
+	
+FinFuncion
+
+
+
+
+
+
+funcion rsdo=mediaVector(v,tam)
+	rsdo=5
+FinFuncion
+
+
+
+
+
+
+funcion simularTiradas(v, numCaras, numTiradas)
+	
+	para i=1 hasta numTiradas
+		t=Aleatorio(1,numCaras)
+		v(t)=v(t)+1
+	FinPara
+	
+FinFuncion
+
+
+
+
+
+funcion imprimirVector(v,tam)
+	
+	para i=1 hasta tam Hacer
+		escribir i " : " v(i)
+	FinPara
+	
+FinFuncion
+
+
+
+
+
+funcion rellenarAleatoriamente(v, tam)
+	
+	para i=1 hasta tam Hacer
+		v(i)=Aleatorio(1,10)
+	FinPara
+FinFuncion
