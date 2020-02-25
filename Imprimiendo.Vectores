@@ -10,7 +10,7 @@ Algoritmo imprimiendoVectores
 	rellenarAleatoriamente(valores,numColumnas)
 	imprimirVector(valores,numColumnas)
 	
-	desordenarVector(vector,numColumnas)
+	desordenarVector(valores,numColumnas)
 	imprimirVector(valores,numColumnas)
 	
 FinAlgoritmo
@@ -22,8 +22,17 @@ FinAlgoritmo
 
 funcion desordenarVector(v,numColumnas)
 	
+	para i=1 Hasta numColumnas
+		cambiarValores(v,i,aleatorio(1,numColumnas))
+	FinPara
+	
 FinFuncion
+funcion cambiarValores(v, posInicial, posFinal)
+	aux=v(posInicial)
+	v(posInicial)=v(posFinal)
+	v(posFinal)=aux
 
+FinFuncion
 
 
 
